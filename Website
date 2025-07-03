@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Learning Guide</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #005A9E; /* A professional blue color */
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        details {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        summary {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 15px;
+            cursor: pointer;
+            outline: none;
+            position: relative;
+        }
+        summary::marker {
+            color: #005A9E;
+        }
+        .content {
+            padding: 0 20px 20px 40px;
+            border-top: 1px solid #e0e0e0;
+        }
+        a {
+            color: #0078D4;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: "Courier New", Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Learning Guide: Using AI Productively</h1>
+    <p style="text-align: center;">An introduction to key concepts and tools for our team.</p>
+
+    <details>
+        <summary>Part 1: Understanding the Basics</summary>
+        <div class="content">
+            <h2>What's Behind the Buzzwords?</h2>
+            <p>To use these new tools effectively, we need to understand their core mechanics. Here are the three most important concepts explained simply:</p>
+            
+            <h3>1. Large Language Models (LLMs)</h3>
+            <ul>
+                <li><strong>What it is:</strong> The foundation of most modern AI tools. An LLM is a giant neural network trained on vast amounts of text and data, enabling it to understand and generate human-like language.</li>
+                <li><strong>Analogy:</strong> Think of it as a highly advanced autocomplete that can suggest entire paragraphs or programs instead of just the next word.</li>
+                <li><strong>Examples at our institute:</strong> ChatGPT, Claude, Gemini.</li>
+                <li><strong>Further learning:</strong>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=iR2O2GPbB0E" target="_blank">Video: What Is a Large Language Model? (by Google)</a></li>
+                        <li><a href="https://www.nvidia.com/en-us/glossary/large-language-model/" target="_blank">Article: A Good Overview from NVIDIA</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>2. Retrieval-Augmented Generation (RAG)</h3>
+            <ul>
+                <li><strong>What it is:</strong> A critical "upgrade" for LLMs. Instead of relying only on its general training data, a RAG system first retrieves relevant information from a specific, up-to-date knowledge base (like our internal research papers) before generating an answer.</li>
+                <li><strong>Analogy:</strong> Imagine asking a brilliant professor a question, but first handing them the exact textbook with the answer and saying, "Please, only use this book." This ensures answers are based on verifiable facts.</li>
+                <li><strong>Why it matters:</strong> RAG makes AI reliable and safe for scientific and professional use by grounding its answers in our own data.</li>
+                <li><strong>Further learning:</strong>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=T-D1OfcDW1M" target="_blank">Video: What is RAG? (A very clear visual explanation)</a></li>
+                        <li><a href="https://research.ibm.com/blog/what-is-retrieval-augmented-generation" target="_blank">Article: In-depth explanation from IBM Research</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>3. Agentic Automation (AI Agents)</h3>
+            <ul>
+                <li><strong>What it is:</strong> The next step. An AI Agent uses an LLM as its "brain" to independently plan and execute multi-step tasks to achieve a goal.</li>
+                <li><strong>Analogy:</strong> If an LLM is a specialized worker (e.g., a writer), an AI Agent is the project manager. You give it a goal like "prepare the quarterly report," and it figures out the necessary steps: get sales data, analyze it, write a summary, and create a presentation.</li>
+                <li><strong>Why it matters:</strong> Agents have the potential to automate entire workflows, boosting productivity exponentially.</li>
+                <li><strong>Further learning:</strong>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=d_y4vS6s_v8" target="_blank">Video: AI Agents Explained (by a16z)</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </details>
+
+    <details open>
+        <summary>Part 2: The Institute's AI Toolbox (Detailed Overview)</summary>
+        <div class="content">
+            <p>Here is a list of all AI tools already in use at the institute. Each tool includes a short description and a link to get you started quickly.</p>
+
+            <h3>I. Programming & Code Development</h3>
+            <ul>
+                <li><strong>Windsurf:</strong> An AI assistant for VS Code specialized in generating code from prompts. Ideal for "vibe coding" to quickly turn an idea into a first draft.
+                    <br><a href="https://marketplace.visualstudio.com/items?itemName=windsurf.windsurf" target="_blank">Quickstart: Windsurf on VS Code Marketplace</a></li>
+                <li><strong>Cursor:</strong> An "AI-first" code editor deeply integrated with AI. It can understand your entire codebase to make changes, fix bugs, or implement new features.
+                    <br><a href="https://www.youtube.com/watch?v=t_is10d_h_Y" target="_blank">Quickstart: Official "Getting Started" Video (approx. 5 mins)</a></li>
+                <li><strong>GitHub Copilot:</strong> One of the most well-known code assistants. It suggests single lines or entire functions as you type.
+                    <br><a href="https://docs.github.com/en/copilot/quickstart" target="_blank">Quickstart: Official GitHub Copilot Documentation</a></li>
+                <li><strong>Pydantic AI:</strong> A Python library that makes it easier for developers to extract structured data (like JSON) from LLM responses.
+                    <br><a href="https://github.com/pydantic/pydantic-ai" target="_blank">Quickstart: Pydantic AI on GitHub (see README for "Hello World")</a></li>
+            </ul>
+
+            <h3>II. Research, Writing & Text Generation</h3>
+            <ul>
+                <li><strong>Perplexity:</strong> An AI-powered answer and search engine, excellent for academic research because it provides direct links to its sources.
+                    <br><a href="https://www.youtube.com/watch?v=j4-i_g2G6ss" target="_blank">Quickstart: Guide on how to use Perplexity for Academic Research</a></li>
+                <li><strong>ChatGPT / Gemini / Claude:</strong> The "Swiss Army knives" of LLMs. Ideal for brainstorming, summarizing, rephrasing, translating, and drafting emails or proposals.
+                    <br><a href="https://help.openai.com/en/collections/6832367-chatgpt-best-practices" target="_blank">Quickstart: ChatGPT Best Practices</a></li>
+                <li><strong>Manus.ai:</strong> A tool designed specifically for collaborative authoring of scientific manuscripts, using AI for support.
+                    <br><a href="https://www.manuscripts.ai/" target="_blank">Quickstart: Official Manus.ai Website</a></li>
+            </ul>
+
+            <h3>III. Automation & Infrastructure</h3>
+            <ul>
+                <li><strong>n8n:</strong> A workflow automation platform to connect different applications and create task chains without code.
+                    <br><a href="https://www.youtube.com/watch?v=G4-i4gJ3_1I" target="_blank">Quickstart: n8n Tutorial for Beginners (approx. 15 mins)</a></li>
+                <li><strong>Supabase / PostgreSQL / Pinecone:</strong> Tools for building vector databases, which are the heart of RAG systems.
+                    <br><a href="https://supabase.com/docs/guides/getting-started/quickstarts" target="_blank">Quickstart: Supabase Official Quickstarts</a> | <a href="https://docs.pinecone.io/docs/quickstart" target="_blank">Quickstart: Pinecone Guide</a></li>
+                <li><strong>DigitalOcean:</strong> A cloud provider for renting virtual servers ("Droplets") to host your own AI applications or Docker containers.
+                    <br><a href="https://docs.digitalocean.com/products/droplets/how-to/create/" target="_blank">Quickstart: How to Create a Droplet</a></li>
+                <li><strong>Ollama:</strong> The easiest way to run powerful LLMs (like Mistral, Llama) locally on your own computer. Perfect for experiments and privacy-sensitive tasks.
+                    <br><a href="https://ollama.com/" target="_blank">Quickstart: Ollama Website (Download & commands on the front page)</a></li>
+            </ul>
+             <h3>IV. Specialized Analysis Tools</h3>
+            <ul>
+                <li><strong>ilastik:</strong> User-friendly open-source software for interactive image classification and segmentation using machine learning, especially for microscopy.
+                    <br><a href="https://www.ilastik.org/documentation/basics/first_steps" target="_blank">Quickstart: ilastik "First Steps" Tutorial Videos</a></li>
+                <li><strong>Python Libraries (sklearn, pytorch, umap):</strong> The foundation for custom machine learning solutions in Python.
+                    <br><a href="https://scikit-learn.org/stable/getting_started.html" target="_blank">Quickstart: scikit-learn</a> | <a href="https://pytorch.org/tutorials/beginner/basics/intro.html" target="_blank">Quickstart: PyTorch</a> | <a href="https://umap-learn.readthedocs.io/en/latest/basic_usage.html" target="_blank">Quickstart: UMAP</a></li>
+            </ul>
+             <h3>V. Other Tools</h3>
+            <ul>
+                <li><strong>Lovable:</strong> An AI platform for rapidly building and hosting websites.
+                    <br><a href="https://lovable.dev/" target="_blank">Quickstart: Official Lovable Website</a></li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>Part 3: Getting Started & Best Practices</summary>
+        <div class="content">
+            <h2>How to Begin?</h2>
+            
+            <h3>1. Start Small</h3>
+            <p>Don't try to automate everything at once. Use AI for a specific, small task. Ask ChatGPT to rephrase an email in English or use Perplexity for your next literature search.</p>
+            
+            <h3>2. The Art of "Prompting"</h3>
+            <p>The quality of the output depends directly on the quality of your instruction (the "prompt"). Be as precise as possible:</p>
+            <ul>
+                <li><strong>Provide context:</strong> "I am a scientist writing a grant proposal for..."</li>
+                <li><strong>Define a role:</strong> "Act as an expert in bioinformatics and answer..."</li>
+                <li><strong>Give examples:</strong> "Here is a sample of the writing style I want: ..."</li>
+            </ul>
+
+            <h3>3. AI as a Co-Pilot, Not an Autopilot</h3>
+            <p>This is the most critical takeaway from our internal use cases: <strong>AI is an extremely powerful assistant, but not a replacement for our own expertise.</strong></p>
+            <ul>
+                <li><strong>Check the facts:</strong> General LLMs can "hallucinate" (make up facts). Use RAG systems or tools like Perplexity for fact-based tasks.</li>
+                <li><strong>Check the code:</strong> AI-generated code must be understood and verified line-by-line. It's a template, not a finished product. The complexity and deep thinking must come from us.</li>
+            </ul>
+
+            <h3>4. Keep Learning</h3>
+            <p>This field is moving incredibly fast. For those who want to dive deeper, the YouTube channels of <strong>Mathew Berman</strong>, <strong>Cole Medin</strong>, and <strong>David Ondrej</strong> are highly recommended resources.</p>
+        </div>
+    </details>
+
+</body>
+</html>
